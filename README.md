@@ -54,7 +54,7 @@ The results are saved in the following structure:
 ### Steps
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/log-file-analyzer.git
+  [ git clone https://github.com/your-username/log-file-analyzer.git](https://github.com/malli13193/VRV-Security.git)
    cd log-file-analyzer
 Place your log file in the same directory as the script. Ensure the file is named sample.log or adjust the script accordingly.
 Run the script:
@@ -125,47 +125,15 @@ The results are saved in the following structure:
 
 ---
 
-## Installation and Usage
 
-### Prerequisites
-- Python 3.x installed on your machine.
 
-### Steps
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/log-file-analyzer.git
-   cd log-file-analyzer
-Place your log file in the same directory as the script. Ensure the file is named sample.log or adjust the script accordingly.
-Run the script:
-bash
-Copy code
-python log_analysis.py
-View the output in the terminal and check the CSV file log_analysis_results.csv for detailed results.
-File Structure
-perl
-Copy code
-log-file-analyzer/
-├── sample.log               # Sample log file for testing
-├── log_analysis.py          # Main Python script
-├── log_analysis_results.csv # Output file generated after running the script
-├── README.md                # Project documentation
-Configuration
-The threshold for detecting suspicious activities (failed login attempts) can be customized:
-
-Open log_analysis.py.
-Locate the detect_suspicious_activity function.
-Adjust the threshold parameter as needed (default is 10).
-Contributing
-Contributions are welcome! If you'd like to suggest improvements or report issues, feel free to open an issue or submit a pull request.
-
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments
 This project is developed to demonstrate Python's file handling and data analysis capabilities, emphasizing real-world use cases in cybersecurity.
 
-javascript
-Copy code
 
-Replace `"your-username"` in the repository URL with your GitHub username to customize it 
+
+Replace `"malli13193"` in the repository URL with your GitHub username to customize it 
 
